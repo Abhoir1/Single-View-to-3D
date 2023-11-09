@@ -72,6 +72,11 @@ python eval_model.py --type 'point' --load_checkpoint
 ```
 - Predictions and ground truths will be saved in "Visualization/Vis_point".
 
+
+
+|<img src="Visualization/Visual_point/GroundTruth_0.gif" width="300" height="300" alt="Ground Truth"/> | <img src="Visualization/Visual_point/Predicted_0.gif" width="300" height="300" alt="Predicted"/> |
+|:---:|:---:|
+| Ground Truth | Predicted |
 #### 2.3 Mesh-Based Model
 
 - This will create "checkpoint_mesh.pth" in the root directory.
@@ -85,4 +90,8 @@ python eval_model.py --type 'mesh' --load_checkpoint
 ```
 - Predictions and ground truths will be saved in "Visualization/Vis_mesh".
 
+
+|<img src="Visualization/Visual_mesh/GroundTruth_0.gif" width="300" height="300" alt="Ground Truth"/> | <img src="Visualization/Visual_mesh/Predicted_0.gif" width="300" height="300" alt="Predicted"/> |
+|:---:|:---:|
+| Ground Truth | Predicted |
 After each evaluation, the threshold vs F1 score plot is saved in the "Visualization/Evaluation" directory.
