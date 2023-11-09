@@ -49,61 +49,10 @@ python eval_model.py --type 'vox' --load_checkpoint
 - Change the `step` parameter to select specific predictions to save.
 - Predictions and ground truths will be saved in "Visualization/Vis_vox".
 
-<!-- <head>
-    <style>
-        .image-container .image img {
-            width: 300px;
-            height: 300px;
-            object-fit: cover;
-        }
-    </style>
-</head>
-<div class="image-container">
-    <div class="image">
-        <img src="vis_mesh/q_2-3-gt-0.gif" alt="Input RGB Image">
-        <p>Input RGB Image</p>
-    </div>
-    <div class="image">
-        <img src="vis_mesh/q_2-3-gt-0.gif" alt="Ground Truth">
-        <p>Ground Truth</p>
-    </div>
-    <div class="image">
-        <img src="vis_mesh/q_2-3-gt-0.gif" alt="Predicted">
-        <p>Predicted</p>
-    </div>
-</div> -->
-<!-- 
-![Input RGB Image](vis_mesh/q_2-3-gt-0.gif "Input RGB Image") ![Ground Truth](vis_mesh/q_2-3-gt-0.gif "Ground Truth") ![Predicted](vis_mesh/q_2-3-gt-0.gif "Predicted") -->
-<!-- <meta charset="utf-8" emacsmode="-*- markdown -*">
-<div style="display: flex; justify-content: space-between;">
-    <div style="margin-right: 10px;">
-        <img src="vis_mesh/q_2-3-gt-0.gif" alt="Input RGB Image" style="width: 32%;">
-        <p style="text-align: center;">Input RGB Image</p>
-    </div>
-    <div style="margin-right: 10px;">
-        <img src="vis_mesh/q_2-3-gt-0.gif" alt="Ground Truth" style="width: 32%;">
-        <p style="text-align: center;">Ground Truth</p>
-    </div>
-    <div>
-        <img src="vis_mesh/q_2-3-gt-0.gif" alt="Predicted" style="width: 32%;">
-        <p style="text-align: center;">Predicted</p>
-    </div>
-</div> -->
-<!-- 
-<style>
-    .image-container {
-        display: flex; 
-        justify-content: space-between; 
-    }
 
-    .image {
-        text-align: center;
-    }
-</style> -->
-
-| ![Input RGB Image](vis_mesh/q_2-3-gt-0.gif) | ![Ground Truth](vis_mesh/q_2-3-gt-0.gif) | ![Predicted](vis_mesh/q_2-3-gt-0.gif) |
-|:---:|:---:|:---:|
-| Input RGB Image | Ground Truth | Predicted |
+|![Ground Truth](Visualization/Visual_vox/GroundTruth_0.gif) | ![Predicted](Visualization/Visual_vox/Predicted_0.gif) |
+|:---:|:---:|
+| Ground Truth | Predicted |
 
 
 #### 2.2 Point-Based Model
