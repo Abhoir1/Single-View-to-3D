@@ -21,13 +21,13 @@ python fit_data.py --type 'vox'
 ```
 python fit_data.py --type 'point'
 ```
-<img src ="vis_fit_data/combined_pointclouds.gif" width=400/>
+<img src ="vis_fit_data/combined_pointclouds.gif" height=300/>
 #### Mesh Representation
 
 ```
 python fit_data.py --type 'mesh'
 ```
-<img src ="vis_fit_data/combined_meshes.gif" width=400/>
+<img src ="vis_fit_data/combined_meshes.gif" height=300/>
 
 
 
