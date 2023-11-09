@@ -74,7 +74,7 @@ python eval_model.py --type 'vox' --load_checkpoint
 </div> -->
 <!-- 
 ![Input RGB Image](vis_mesh/q_2-3-gt-0.gif "Input RGB Image") ![Ground Truth](vis_mesh/q_2-3-gt-0.gif "Ground Truth") ![Predicted](vis_mesh/q_2-3-gt-0.gif "Predicted") -->
-
+<meta charset="utf-8" emacsmode="-*- markdown -*">
 <div style="display: flex; justify-content: space-between;">
     <div style="margin-right: 10px;">
         <img src="vis_mesh/q_2-3-gt-0.gif" alt="Input RGB Image" style="width: 32%;">
@@ -89,6 +89,17 @@ python eval_model.py --type 'vox' --load_checkpoint
         <p style="text-align: center;">Predicted</p>
     </div>
 </div>
+
+<style>
+    .image-container {
+        display: flex; 
+        justify-content: space-between; 
+    }
+
+    .image {
+        text-align: center;
+    }
+</style>
 
 #### 2.2 Point-Based Model
 
