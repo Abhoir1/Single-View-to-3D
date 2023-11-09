@@ -49,7 +49,7 @@ python eval_model.py --type 'vox' --load_checkpoint
 - Change the `step` parameter to select specific predictions to save.
 - Predictions and ground truths will be saved in "Visualization/Vis_vox".
 
-<!-- <head>
+<head>
     <style>
         .image-container .image img {
             width: 300px;
@@ -71,10 +71,10 @@ python eval_model.py --type 'vox' --load_checkpoint
         <img src="vis_mesh/q_2-3-gt-0.gif" alt="Predicted">
         <p>Predicted</p>
     </div>
-</div> -->
+</div>
 <!-- 
 ![Input RGB Image](vis_mesh/q_2-3-gt-0.gif "Input RGB Image") ![Ground Truth](vis_mesh/q_2-3-gt-0.gif "Ground Truth") ![Predicted](vis_mesh/q_2-3-gt-0.gif "Predicted") -->
-<meta charset="utf-8" emacsmode="-*- markdown -*">
+<!-- <meta charset="utf-8" emacsmode="-*- markdown -*">
 <div style="display: flex; justify-content: space-between;">
     <div style="margin-right: 10px;">
         <img src="vis_mesh/q_2-3-gt-0.gif" alt="Input RGB Image" style="width: 32%;">
@@ -88,7 +88,7 @@ python eval_model.py --type 'vox' --load_checkpoint
         <img src="vis_mesh/q_2-3-gt-0.gif" alt="Predicted" style="width: 32%;">
         <p style="text-align: center;">Predicted</p>
     </div>
-</div>
+</div> -->
 
 <style>
     .image-container {
