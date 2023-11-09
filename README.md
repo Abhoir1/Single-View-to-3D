@@ -49,6 +49,22 @@ python eval_model.py --type 'vox' --load_checkpoint
 - Change the `step` parameter to select specific predictions to save.
 - Predictions and ground truths will be saved in "Visualization/Vis_vox".
 
+<div class="image-container">
+    <div class="image">
+        <img src="vis_mesh/q_2-3-gt-0.gif" alt="Input RGB Image">
+        <p>Input RGB Image</p>
+    </div>
+    <div class="image">
+        <img src="vis_mesh/q_2-3-gt-0.gif" alt="Ground Truth">
+        <p>Ground Truth</p>
+    </div>
+    <div class="image">
+        <img src="vis_mesh/q_2-3-gt-0.gif" alt="Predicted">
+        <p>Predicted</p>
+    </div>
+</div>
+
+
 #### 2.2 Point-Based Model
 
 - This will create "checkpoint_point.pth" in the root directory.
@@ -75,3 +91,4 @@ python eval_model.py --type 'mesh' --load_checkpoint
 ```
 - Predictions and ground truths will be saved in "Visualization/Vis_mesh".
 
+After each evaluation, the threshold vs F1 score plot is saved in the "Visualization/Evaluation" directory.
