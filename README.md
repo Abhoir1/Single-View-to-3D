@@ -73,6 +73,8 @@ python eval_model.py --type 'vox' --load_checkpoint
     </div>
 </div>
 
+![Input RGB Image](vis_mesh/q_2-3-gt-0.gif "Input RGB Image") ![Ground Truth](vis_mesh/q_2-3-gt-0.gif "Ground Truth") ![Predicted](vis_mesh/q_2-3-gt-0.gif "Predicted")
+
 
 #### 2.2 Point-Based Model
 
