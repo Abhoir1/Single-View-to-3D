@@ -14,7 +14,7 @@ Execute the following commands in your terminal. If necessary, replace `python` 
 ```
 python fit_data.py --type 'vox'
 ```
-<img src ="vis_fit_data/combined_voxel.gif" width=400 height=100/>
+<img src ="vis_fit_data/combined_voxel.gif" width=300 height=250/>
 
 #### Point Representation
 
