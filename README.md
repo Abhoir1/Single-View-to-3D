@@ -94,4 +94,5 @@ python eval_model.py --type 'mesh' --load_checkpoint
 |<img src="Visualization/Visual_mesh/GroundTruth_0.gif" width="300" height="300" alt="Ground Truth"/> | <img src="Visualization/Visual_mesh/Predicted_0.gif" width="300" height="300" alt="Predicted"/> |
 |:---:|:---:|
 | Ground Truth | Predicted |
+
 After each evaluation, the threshold vs F1 score plot is saved in the "Visualization/Evaluation" directory.
