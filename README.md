@@ -14,23 +14,20 @@ Execute the following commands in your terminal. If necessary, replace `python` 
 ```
 python fit_data.py --type 'vox'
 ```
-
-Look for "combined_voxel.gif" in the root directory, which visualizes the voxel fitting process.
+<img src ="vis_fit_data/combined_voxel.gif" width=400/>
 
 #### Point Representation
 
 ```
 python fit_data.py --type 'point'
 ```
-
-"combined_point.gif" will be generated in the root directory, showing the point fitting
-
+<img src ="vis_fit_data/combined_pointclouds.gif" width=400/>
 #### Mesh Representation
 
 ```
 python fit_data.py --type 'mesh'
 ```
+<img src ="vis_fit_data/combined_meshes.gif" width=400/>
 
-"combined_mesh.gif" will be generated in the root directory, showing the point fitting
 
-<img src ="Picture5.jpg" width=400/>
+
